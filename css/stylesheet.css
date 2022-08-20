@@ -1,0 +1,101 @@
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    text-align: center;
+    padding:20px;
+    border:1px solid rgb(0, 0, 0);
+    width:60%;
+    margin:auto;
+    height:90vh;
+}
+.login-form{
+    margin-top:100px;
+    margin-left:auto;
+    margin-right: auto;
+    /* margin-top:20px; */
+    padding:25px;
+    width:700px;
+    border: 1px solid blue; 
+}
+
+.form-item{
+    margin-bottom: 20px;
+}
+.form-item input,select{
+    width:80%;
+    height: 20px;
+}
+.form-item select{
+    height: 30px;
+}
+.add-form{
+    margin:100px auto 100px;
+    padding:40px;
+    width:700px;
+    border: 1px solid blue; 
+}
+button{
+    background-color: rgb(16, 62, 98); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:40%;
+}
+button:hover{
+    cursor: pointer;
+}
+/*Book.html*/
+.book-form{
+    margin:50px auto 100px;
+    padding:40px;
+    width:700px;
+    border: 1px solid blue;  
+}
+/* loans.html */
+.issue-form{
+    margin:100px auto 100px;
+    padding:40px;
+    width:700px;
+    border: 1px solid blue; 
+}
+.display-table{
+    margin:100px auto 100px;
+    padding:40px;
+    width:900px;
+    border: 1px solid blue; 
+}
+.display-table table{
+    margin:auto;
+}
+/*publishers */
+.display-table h1{
+    text-align:center;
+}
+
+/*Find Book*/
+.find-form{
+    margin:40px auto 100px;
+    padding:40px;
+    width:700px;
+    border: 1px solid blue; 
+}
+
+/*Dashboard*/
+.dashboard{
+    text-align:center;
+    margin:40px auto 100px;
+    padding:40px;
+    width:700px;
+    border: 1px solid blue; 
+}
+.dashboard button{
+    margin-bottom:10px;
+    width:80%;
+}
